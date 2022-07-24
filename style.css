@@ -255,8 +255,8 @@ ol {
 
 /* Appointment */
 .appoitment {
-  width: 360px;
-  margin: 30px;
+  width: 300px;
+  margin: 40px 60px 50px 70px;
 }
 
 .appointment-info {
@@ -267,7 +267,9 @@ ol {
 }
 
 .appointment-item {
-  border: solid 2px black;
+  width: 140px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .appointment-form {
@@ -292,6 +294,14 @@ ol {
   cursor: pointer;
 }
 
+.appointment-item {
+  width: 140px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 .appointment-item input {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -300,6 +310,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 7px;
+  border: 2px solid #000000;
 }
 
 .appointment-item label {
@@ -310,5 +321,6 @@ ol {
   font: inherit;
 
   background-color: transparent;
-  border: 2px solid #000000;
 }
+
+/* Footer */
